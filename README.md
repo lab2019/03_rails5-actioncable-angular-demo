@@ -6,13 +6,14 @@ This is a sample running demo project to show how to set up Rails Actioncable an
 
 
 #### Install Rails dependencies
- - `cd server && bundle install`
+ - `$ cd server && bundle install`
 
 #### Install Angular dependencies
- - `cd client && bower install`
+- `$ npm install -g bower`
+- `$ cd client && bower install`
 
 #### Start Rails server
- - `cd server && rails server`
+ - `$ cd server && rails server`
 
 #### Navigate to the application
  - Open `http://localhost:3000` in your favourite browser
